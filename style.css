@@ -1,0 +1,85 @@
+html {
+  height: 100%;
+  background-color: #000000;
+  background-image: linear-gradient(315deg, #000000 0%, #7f8c8d 74%);
+
+}
+
+body {
+  margin: 0px;
+  padding-right: 10%;
+}
+
+#intro {
+  color: rgb(175, 171, 171);;
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 20px;
+    font-weight: bold;
+    
+  }
+
+  #profile-link {
+  padding-right: 25px;
+  padding-top: 25px;
+  text-align: right;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  }
+  
+  
+  #welcome-section {
+    margin-top: 50px;
+    width: 100vw;
+    text-align: center;
+    font-size: 25px;
+  }
+  
+  .thumbnails {
+   width: 280px;
+  height: 200px;
+
+  }
+
+  #projects-holder {
+    margin-top: 10%;
+    margin-left: 25%
+  }
+
+  #projects {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;    
+  }
+  .project-div {
+    padding-right: 20px;
+  }
+
+  #project {
+    margin: auto;
+    
+  }
+
+  a {
+    text-decoration: none;
+
+
+  }
+
+  figcaption {
+    color: rgb(175, 171, 171);
+    font-weight: bold;
+    font-size: large;
+  }
+
+  
+  
+  
+  @media(max-height: 800px) {
+    p {
+      font-size: 10px;
+    }
+  }
+  
