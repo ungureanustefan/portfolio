@@ -3,9 +3,7 @@
 body {
   margin: 0px;
   padding-right: 10%;
-  background: linear-gradient(
-355deg
-, #000000 0%, #7f8c8d 10%);
+  background: #7f8c8d;
 }
 
 #intro {
